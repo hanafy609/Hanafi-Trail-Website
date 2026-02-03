@@ -1,0 +1,111 @@
+body{
+           margin: 0; 
+           font-family: "Roboto", sans-serif;
+        }
+        .header {
+            background-color: #0171f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px; 
+        }
+        .logo{
+            width: 100px;
+        }
+        .btn{ 
+            background-color: #ee636b;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 15px;   
+        }
+        .btn:hover{
+            background-color:#f2858c;     
+        }
+
+        
+        .header-links a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            font-size: 18px;
+        }   
+        .header-links a:hover {
+          background-color:#2386fe;
+          border-radius: 15px;
+        }
+       
+       
+.landing-page {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: white;
+    border-radius:0 0 50px 50px;
+   
+
+}
+.landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+}
+
+
+.landing-page-search button{
+    position: absolute;
+    left: 200px;
+    height: 30px;
+}
+.landing-page-image img{
+    border-radius: 20px;
+    width: 300px;
+}
+.trending-section {
+   padding: 25px 50px;
+}
+.trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.trending-header h1 {
+    margin-top: 0;
+}
+
+.trending-section span {
+    color:#ee636b;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    align-items: center;
+}
+
+.card-info img{
+    width: 50px;
+}
+.cards{
+ width: 300px;  
+ background-color: rgba(254, 235, 233, 0.795); 
+ border-radius: 20px;
+}
+
+.cards .thumb{
+    border-radius: 20px 20px 0 0;
+}
+
+.trending-card{
+    display: flex;
+    gap: 25px;
+}
+
+
